@@ -3,7 +3,7 @@ def check_character(word, index):
    if word[index].isalpha():
       return "letter"
    elif word[index].isspace():
-      return "white  space"
+      return "white space"
    elif word[index].isdigit():
       return "digit"
    else:
